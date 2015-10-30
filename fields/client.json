@@ -1,0 +1,33 @@
+[
+  {
+    "field":"clientname:string",
+    "type":"text",
+    "validations": "required"
+  },
+  {
+    "field":"clientcontact:string",
+    "type":"text",
+    "validations": ""
+  },
+  {
+    "field":"clientemail:string",
+    "type":"email",
+    "validations": "required"
+  },
+  {
+    "field":"clientvat:text",
+    "type":"text",
+    "validations": ""
+  },
+  {
+    "field":"clientaddress:text",
+    "type":"textarea",
+    "validations": ""
+  },
+  {
+    "field": "user_id:integer:unsigned:foreign:references,id:on,users:onDelete,cascade",
+    "type": "text",
+    "validations": ""
+  }
+
+]

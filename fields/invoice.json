@@ -1,0 +1,14 @@
+[
+  {
+    "field": "client_id:integer:unsigned:foreign:references,id:on,clients:onDelete,cascade",
+    "type": "number",
+    "validations": "required"
+  },
+  {
+    "field":"invoicenumber:integer",
+    "type":"number",
+    "validations": "required"
+  }
+
+
+]
